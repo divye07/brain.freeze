@@ -1,4 +1,6 @@
 // Mock authentication service to replace Firebase
+
+const BASE_URL = https://backend-79cf.vercel.app/
 const ADMIN_USER = {
   email: 'admin@voting-system.com',
   password: 'admin123',
