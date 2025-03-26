@@ -2,7 +2,10 @@
 
 A comprehensive digital voting platform focused on secure voter verification with advanced biometric authentication and ID card scanning.
 
-![Secure Voting System](./src/assets/logo.svg)
+<div align="center">
+  <img src="./src/assets/logo.svg" alt="Secure Voting System" width="200" height="200">
+  <h3>Brain.freeze() Team</h3>
+</div>
 
 ## 📋 Table of Contents
 
