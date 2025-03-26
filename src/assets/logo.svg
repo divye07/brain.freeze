@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <circle cx="256" cy="256" r="250" fill="#2196f3" />
+  <circle cx="256" cy="256" r="210" fill="#ffffff" />
+  <circle cx="256" cy="256" r="200" fill="#1976d2" />
+  
+  <!-- Ballot Box -->
+  <rect x="176" y="186" width="160" height="140" rx="10" ry="10" fill="#ffffff" />
+  <rect x="216" y="186" width="80" height="30" rx="5" ry="5" fill="#ffffff" />
+  <rect x="246" y="156" width="20" height="30" fill="#ffffff" />
+  
+  <!-- Ballot Paper -->
+  <rect x="246" y="210" width="70" height="90" fill="#f5f5f5" stroke="#dddddd" stroke-width="2" />
+  <line x1="260" y1="230" x2="300" y2="230" stroke="#555555" stroke-width="3" />
+  <line x1="260" y1="250" x2="300" y2="250" stroke="#555555" stroke-width="3" />
+  <line x1="260" y1="270" x2="300" y2="270" stroke="#555555" stroke-width="3" />
+  
+  <!-- Checkmark -->
+  <path d="M230,240 L245,260 L270,220" stroke="#4caf50" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Face Recognition Elements -->
+  <circle cx="176" cy="256" r="35" fill="none" stroke="#ffffff" stroke-width="4" />
+  <circle cx="165" cy="245" r="5" fill="#ffffff" />
+  <circle cx="187" cy="245" r="5" fill="#ffffff" />
+  <path d="M160,265 Q176,275 192,265" stroke="#ffffff" stroke-width="3" fill="none" />
+  
+  <!-- ID Card Element -->
+  <rect x="126" y="300" width="50" height="35" rx="3" ry="3" fill="#ffffff" />
+  <rect x="136" y="310" width="30" height="5" fill="#1976d2" />
+  <rect x="136" y="320" width="20" height="5" fill="#1976d2" />
+
+  <!-- Security Elements -->
+  <path d="M350,250 Q356,200 380,220 Q400,240 380,280 Q360,320 340,280 Z" fill="#ffc107" />
+  <circle cx="370" cy="250" r="8" fill="#ffffff" />
+  <rect x="368" y="250" width="4" height="20" fill="#ffffff" />
+</svg>
