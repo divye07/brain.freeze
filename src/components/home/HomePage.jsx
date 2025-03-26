@@ -20,6 +20,7 @@ import {
   FaceOutlined as FaceIcon
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
+import votingIllustration from '../../assets/images/voting-illustration.svg';
 
 const HomePage = ({ darkMode }) => {
   const navigate = useNavigate();
@@ -118,9 +119,7 @@ const HomePage = ({ darkMode }) => {
             <Grid item xs={12} md={6} sx={{ display: { xs: 'none', md: 'block' } }}>
               <Box
                 component="img"
-                src={darkMode 
-                  ? "https://cdn.pixabay.com/photo/2018/10/28/16/11/vote-3779580_1280.png"
-                  : "https://cdn.pixabay.com/photo/2016/10/14/15/21/vote-1740466_1280.jpg"}
+                src={votingIllustration}
                 alt="Voting illustration"
                 sx={{
                   width: '100%',
